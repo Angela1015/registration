@@ -1,0 +1,12 @@
+label{
+    display:block;
+    padding:5px;
+}
+
+div{
+    border:.025px solid;
+    display:inline-flex;
+    align-items: baseline;
+    width: 165px;
+    
+}
