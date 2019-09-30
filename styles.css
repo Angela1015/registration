@@ -1,9 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    
+}
+
+
+
 label{
     display:block;
     padding:5px;
 }
 
-div{
+select{
+    width: 165px;
+    height: 25x;
+}
+
+.general-info{
+    display:flex;
+    
+}
+.general-info div{
+    padding-right: 75px;
+}
+
+
+.officespace{
     border:.025px solid;
     display:inline-flex;
     align-items: baseline;

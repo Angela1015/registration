@@ -14,8 +14,24 @@
         <h3>Profie Information</h3>
     </header>
     <form>
-        <label for="agency name">Agency Name</label>
-        <input type="text" id="agency name" name="agency name" minlength="3" maxlength="40">     
+
+       <section class="general-info">
+        <div>
+            <label for="agency name">Agency Name</label>
+            <input type="text" id="agency name" name="agency name" minlength="3" maxlength="40"> 
+        </div>
+        <div>
+            <label for="agencytype">Agency Type</label>              
+            <select id="agencytype" name="agencytype">
+                <option value="agent">Agent</option>
+                <option value="client">Client</option>
+            </select>    
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" minlength="8" maxlength="20">
+        </div>
+        </section>
         
         <label for="address">Address</label>
         <input type="text" id="address" name="address" minlength="7" maxlength="40">
@@ -23,14 +39,9 @@
         <label for="telephone">Telephone Number</label>
         <input type="number" minlength="9" maxlength="9" name ="telephone">
 
-        <label for ="Agency Type"></label>
-        <input type="text">
+        
 
-        <label for="agencytype">Agency Type</label>
-        <select id="agencytype" name="agencytype">
-            <option value="agent">Agent</option>
-            <option value="client">Client</option>
-        </select>
+       
         <label for="city">City</label>
         <input type="text" id ="city" name="city" minlength="3" maxlength="40">
         <label for="state">State</label>
@@ -39,8 +50,8 @@
         <input type="email" id="email" name="email">
 
         <section> 
-            <p>Officce Space</p>
-            <div>
+            <p>Office Space</p>
+            <div class="officespace">
             <label for="owned">Owned</label>        
             <input type="radio" name="officespace" id="officespace" value="owned">
             <label for="rental">Rental</label>
