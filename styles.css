@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    
+
 }
 
 
@@ -23,7 +23,27 @@ select{
 .general-info div{
     padding-right: 75px;
 }
+.agencytype{
+    width: 240px;
+}
+.contact-info{
+    display: flex;
+}
 
+.contact-info div{
+    padding-right:75px ;
+
+}
+
+.city{
+    width: 80px;
+   
+    
+}
+.state{
+    width: 80px;
+   
+}
 
 .officespace{
     border:.025px solid;
