@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
+    background-image: url("")
 
 }
 
@@ -35,6 +36,7 @@ select{
 
 }
 
+
 .city{
     width: 80px;
    
@@ -51,4 +53,7 @@ select{
     align-items: baseline;
     width: 165px;
     
+}
+
+.internet{
 }
