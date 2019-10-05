@@ -1,7 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    background-image: url("")
+    background-image: url("images/ciprian-boiciuc-pdQoksISHaY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    
 
 }
 
@@ -46,14 +50,36 @@ select{
     width: 80px;
    
 }
+.website{
+    width: 240px;
+}
 
 .officespace{
     border:.025px solid;
-    display:inline-flex;
-    align-items: baseline;
+    display:flex;
+    justify-content: center;
     width: 165px;
+    background-color: white;
     
 }
 
 .internet{
+    display: flex;
+    width:165px;
+    align-items:center;
+    
+    
 }
+ .internet div{
+     margin-right: 75px;
+ }
+ 
+ .button button{
+     margin-top:75px;
+   /* text-align: center;
+    margin-right: auto;
+    margin-left: auto;*/
+    height: 40px;
+    width:80px;
+    background-color: white;
+ }
